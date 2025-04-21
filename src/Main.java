@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Conversão de Celsius para Farenheight");
-        double valor1 = 30.4;
-        System.out.println("O valor em graus celsius é: " + valor1);
-        double resultado = ((valor1 * 1.8) + 32);
-        System.out.println("O valor em Farenheight será: " + resultado);
+        System.out.println("Nota final do aluno: ");
+        int valor1 = 7;
+        System.out.println("A nota obtida na primeira prova é: " + valor1);
+        double valor2 = 3.5;
+        System.out.println("A nota obtida na segunda prova é: " + valor2);
+        double resultado = (valor1  + valor2)/2;
+        System.out.println("A média final obtida é: " + resultado);
     }
 }
